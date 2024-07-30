@@ -1,5 +1,7 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import ximage from '../../assets/ximage.png';
+import dpimage from '../../assets/dpimage.png';
+
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -23,7 +25,7 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          src='src/assets/dpimage.png'
+          src={dpimage}
           className={styles.hero}
           alt="Profile picture of Tharun Aluvala"
         />
