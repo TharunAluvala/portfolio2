@@ -12,19 +12,19 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src='public/ximage.png'
+         src='src/assets/ximage.png'
           link="https://dappsocial.io/crossx/offers/"
           h3="Cross-X"
           p="Decentralized Cross-Chain"
         />
         <ProjectCard
-          src='public/dimage.png'
+           src='src/assets/dimage.png'
           link="https://dappsocial.io/vault/"
           h3="DVault"
           p="Secure Personnel Locker"
         />
         <ProjectCard
-          src='public/dimage.png'
+        src='src/assets/dimage.png'
           link="https://risestreet.io/dstreet/"
           h3="DStreet"
           p="A large NFT Marketplace"
