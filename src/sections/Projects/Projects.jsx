@@ -14,22 +14,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-         src={ximage}
+          src={ximage}
           link="https://dappsocial.io/crossx/offers/"
           h3="Cross-X"
           p="Decentralized Cross-Chain"
         />
         <ProjectCard
-           src={dimage}
+          src={dimage}
           link="https://dappsocial.io/vault/"
           h3="DVault"
           p="Secure Personnel Locker"
         />
         <ProjectCard
-        src={dimage}
+          src={dimage}
           link="https://risestreet.io/dstreet/"
           h3="DStreet"
           p="A large NFT Marketplace"
+        />
+        <ProjectCard
+          src={dimage}
+          link="https://sale.everrise.com/"
+          h3="Everlaunch"
+          p="Creating token sales, Securing tokens."
         />
         {/* <ProjectCard
           src={fitLift}
