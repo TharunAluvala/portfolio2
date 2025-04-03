@@ -10,7 +10,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Tharun-Aluvala-FlowCV-Resume-20241206.pdf';
+import CV from '../../assets/Tharun aluvala resume(1).pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -42,7 +42,7 @@ function Hero() {
           <br />
           Aluvala
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Frontend Developer (2+ years)</h2>
         <span>
           <a href="https://x.com/Tharun15601613" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -55,8 +55,11 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          {/* With a passion for developing modern React web apps for commercial
+          businesses. */}
+          Results-driven frontend developer with 2+ years of experience in building dynamic, user-centric web applications using
+          modern frameworks and technologies. Proficient in React.js, JavaScript, and TypeScript, with a strong focus on
+          developing scalable, responsive, and visually appealing user interfaces.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
